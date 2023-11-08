@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "vite",
     "buildd": "tsc && vite build",
-    "start": "vite ",
+    "start": "vite --host",
     "preview": "vite preview",
     "electron": "concurrently -k \"BROWSER=none yarn dev\" \"wait-on tcp:5791 && electron .\"",
     "pack": "npm run build && electron-builder --dir",
