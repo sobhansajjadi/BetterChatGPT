@@ -16,4 +16,4 @@ COPY --chown=appuser:appgroup . .
 RUN yarn build
 
 EXPOSE 8000
-CMD ["/home/appuser/.yarn/bin/serve", "-s", "dist", "-l", "0.0.0.0:8000"]
+CMD ["/home/appuser/.yarn/bin/serve", "-s", "dist", "-l", "8000"]
