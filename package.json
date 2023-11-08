@@ -14,7 +14,7 @@
     "preview": "vite preview",
     "electron": "concurrently -k \"BROWSER=none yarn dev\" \"wait-on tcp:5791 && electron .\"",
     "pack": "npm run build && electron-builder --dir",
-    "make": "yarn build && electron-builder"
+    "make": "npm run build && electron-builder"
   },
   "build": {
     "appId": "better-chatgpt",
