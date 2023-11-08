@@ -9,12 +9,12 @@
   "description": "Play and chat smarter with BetterChatGPT - an amazing open-source web app with a better UI for exploring OpenAI's ChatGPT API!",
   "scripts": {
     "dev": "vite",
-    "buildd": "tsc && vite build",
-    "start": "vite --host",
+    "build": "tsc && vite build",
+    "start": "vite ",
     "preview": "vite preview",
     "electron": "concurrently -k \"BROWSER=none yarn dev\" \"wait-on tcp:5791 && electron .\"",
-    "pack": "npm run build && electron-builder --dir",
-    "make": "npm run build && electron-builder"
+    "pack": "yarn build && electron-builder --dir",
+    "make": "yarn build && electron-builder"
   },
   "build": {
     "appId": "better-chatgpt",
