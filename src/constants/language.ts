@@ -1,6 +1,7 @@
 // languages that have translation files in `public/locales`
 export const i18nLanguages = [
   // 'ar',
+  'fa',
   'da',
   'de',
   'en',
@@ -29,6 +30,7 @@ export const selectableLanguages = [
   // 'ar',
   'da',
   'de',
+  'fa',
   // 'en',
   'en-GB',
   'en-US',
@@ -52,6 +54,7 @@ export const selectableLanguages = [
 
 export const languageCodeToName = {
   // 'ar': 'العربية',
+  'fa': 'فارسی',
   'da': 'Dansk',
   'de': 'Deutsch',
   'en': 'English',
