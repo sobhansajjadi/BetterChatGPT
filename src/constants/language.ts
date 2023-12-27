@@ -1,7 +1,7 @@
 // languages that have translation files in `public/locales`
 export const i18nLanguages = [
   // 'ar',
-  'fa',
+  'fa-IR',
   'da',
   'de',
   'en',
@@ -30,7 +30,7 @@ export const selectableLanguages = [
   // 'ar',
   'da',
   'de',
-  'fa',
+  'fa-IR',
   // 'en',
   'en-GB',
   'en-US',
@@ -51,10 +51,11 @@ export const selectableLanguages = [
   // 'zh-HK',
   'zh-TW',
 ] as const;
+export const rtlLanguages = new Set(['fa-IR']);
 
 export const languageCodeToName = {
   // 'ar': 'العربية',
-  'fa': 'فارسی',
+  'fa-IR': '(ایران)فارسی',
   'da': 'Dansk',
   'de': 'Deutsch',
   'en': 'English',
