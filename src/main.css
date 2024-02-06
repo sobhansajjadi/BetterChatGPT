@@ -281,3 +281,9 @@
 .hljs-title {
   color: #f22c3d;
 }
+/* فرض می‌کنیم این کلاس در فایل styles.css اضافه شود */
+.code-ltr {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: bidi-override; /* یا 'embed' اگر نیاز باشد */
+}
